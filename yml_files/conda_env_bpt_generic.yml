@@ -1,0 +1,19 @@
+name: bpt_1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - ca-certificates
+  - openssl
+  - scikit-image
+  - scikit-learn
+  - ultralytics
+  - pytorch
+  - torchvision
+  - certifi
+  - jupyter
+  - pytesseract
+  - sahi
+  - conda-forge::segment-anything
