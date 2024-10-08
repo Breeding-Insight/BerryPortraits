@@ -1,13 +1,9 @@
-# BerryPortraits
-
-
 # BerryPortraits 
 Cranberry image analysis tool described by Loarca et al. (in publication)
 
 This image analysis pipeline was written by Breeding Insight, a USDA-funded program based at Cornell University, to support the USDA cranberry breeding programs.
 
-## DEMO
-To run an interactive demo illustrating the steps of the pipeline, click the `Binder` button above. This will launch a Jupyter notebook where you can walk through the steps on a sample image.
+The tool is designed to be run as a standalone script with no installation. A more user-friendly GUI tool for running this script is actively being worked on by Breeding Insight, for potential release in 2025.
 
 ## SETUP
 This code is designed to run from within a [Conda](https://anaconda.org/anaconda/conda) environment. We strongly recommend using [mamba](https://mamba.readthedocs.io/), a much faster implementation of the command-line `conda` tool. All `mamba` commands have the same structure and arguments as the relevant `conda` commands.
