@@ -1,9 +1,9 @@
 # BerryPortraits 
 Cranberry image analysis tool described by Loarca et al. (in publication)
 
-This image analysis pipeline was written by Breeding Insight, a USDA-funded program based at Cornell University, to support the USDA cranberry breeding programs.
+This image analysis pipeline was written by Breeding Insight, a USDA-funded program based at Cornell University, in conjunction with the Zalapa Lab based in Madison, WI.
 
-The tool is designed to be run as a standalone script with no installation. A more user-friendly GUI tool for running this script is actively being worked on by Breeding Insight, for potential release in 2025.
+The tool is designed to be run as a standalone python script with no installation. A more user-friendly GUI tool for running this script is actively being worked on by Breeding Insight, for potential release in 2025.
 
 ## SETUP
 This code is designed to run from within a [Conda](https://anaconda.org/anaconda/conda) environment. We strongly recommend using [mamba](https://mamba.readthedocs.io/), a much faster implementation of the command-line `conda` tool. All `mamba` commands have the same structure and arguments as the relevant `conda` commands.
@@ -14,11 +14,18 @@ To install and set up `mamba`:
 3. Find the correct YAML file for your OS
 4. Create a new mamba environment from the appropriate YAML file:
    
-`mamba env create -f yml/mamba_env_berryportraits.yml`
+`mamba env create -f yml/conda_env_bpt_mac.yml`
+
+*Note:* You may run into dependency issues using the YAML file for your specific platform. If you encounter errors, please try using the `conda_env_bpt_generic.yml` file. If you still encounter errors, email Tyr Wiesner-Hanks ([tw372@cornell.edu](mailto:tw372@cornell.edu)) for support.
+
 
 5. Try activating the environment:
 
 `mamba activate bpt`
+
+6. Run the script using the instructions below. When finished, you can simply close out of the terminal or deactivate the environment:
+
+`mamba deactivate`
 
 ## RUNNING THE PIPELINE
 Each time you run the pipeline, you will need to activate the `mamba` environment from your command-line environment:
