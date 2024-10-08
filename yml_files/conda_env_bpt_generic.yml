@@ -1,4 +1,4 @@
-name: bpt_1
+name: bpt
 channels:
   - conda-forge
   - defaults

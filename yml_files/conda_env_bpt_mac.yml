@@ -1,4 +1,4 @@
-name: bpt_2 
+name: bpt 
 channels:
   - pytorch
   - conda-forge
