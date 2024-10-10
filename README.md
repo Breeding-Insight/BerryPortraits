@@ -18,9 +18,11 @@ To install and set up `mamba`:
 
 *Note:* You may run into dependency issues using the YAML file for your specific platform. If you encounter errors, please try using the `conda_env_bpt_generic.yml` file. Following this, you will need to activate the environment and use `pip` to install an additional library that is not available through `conda` channels:
 
-```mamba env create -f yml/conda_env_bpt_generic.yml
+```
+mamba env create -f yml/conda_env_bpt_generic.yml
 mamba activate bpt
-pip install colorcorrectionML```
+pip install colorcorrectionML
+```
 
 If you still encounter errors, email Tyr Wiesner-Hanks ([tw372@cornell.edu](mailto:tw372@cornell.edu)) for support.
 
